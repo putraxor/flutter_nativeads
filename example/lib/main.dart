@@ -20,9 +20,9 @@ class _MyAppState extends State<MyApp> {
   // Platform messages are asynchronous, so we initialize in an async method.
   setupNativeAd() async {
     await FlutterNativeads.setConfiguration(
-      admobId: 'ca-app-pub-3940256099942544~3347511713',
-      adUnitId: 'ca-app-pub-3940256099942544/2247696110',
-      testDeviceId: '37B699B4E6C1FC134B9A272DD9B71BD0',
+      admobId: 'YOUR_ADMOB_ID',
+      adUnitId: 'YOUR_AD_UNIT_ID',
+      testDeviceId: 'YOUR_TEST_DEVICE_ID',
     );
 
     await FlutterNativeads.initializeAd();
